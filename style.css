@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color:#ffffff;
+}
+.container
+{
+    height: 500px;
+    border: 1px solid gray;
+    width: 340px;
+    border-radius: 20px;
+    background: linear-gradient(hsl(252, 100%, 67%),hsla(256, 72%, 46%, 1),hsl(241, 81%, 54%));
+/* hsl(241, 81%, 54%) */
+}
+.boss
+{
+    display:flex;
+}
+.container
+{
+    text-align: center;
+}
+.result
+{
+    margin-top: 50px;
+    
+}
+.light-text 
+{
+    margin:30px;
+
+}
+
+.light-text  h1
+{
+    margin: 20px;
+}
+.idea h1
+{
+    font-size: 60px;
+}
+.container .result h3
+{
+    /* margin-bottom: 40px; */
+    font-size: 24px;
+    color: hsl(0, 4%, 82%);
+}
+.result .light-text
+{
+    line-height: 25px;
+    font-size: 17px;
+    font-weight: 470;
+}
+.result p
+{
+    font-size: 16px;
+    color: hsl(0, 4%, 82%);
+    font-weight: 500;
+}
+.idea
+{
+    border: 1px lightgray ;
+    padding: 10px 20px 10px 20px;
+    border-radius:50%;
+    height: 180px;
+    width: 160px;
+    margin: auto;
+    display: block;
+    align-items: center;
+    justify-content: center; 
+    background: linear-gradient(hsl(252, 100%, 67%),hsla(256, 72%, 46%, 1),hsl(241, 81%, 54%));
+    background-size: cover;
+    
+}
+.idea h1
+{
+    margin-top: 40px;
+}
+/* Second conainer */
+
+.card {
+    width: 295px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .header h1
+  {
+    color: black;
+    padding: 15px 30px 15px 30px;
+    font-size: 30px;
+  }
+  .summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .summary-item  button
+  {
+    width: 360px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f3f3fd;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+  }
+  .summary-item button img
+  {
+    margin-right: 20px;
+  }
+  .continue-btn
+  {
+    margin-top: 20%;
+  }
+  
+  
+  .label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .score {
+    font-size: 16px;
+  }
+  .reaction { color: #ff6b6b; }
+  .memory { color: #ffe66d; }
+  .verbal { color: #48dbfb; }
+  .visual { color: #5f27cd; }
+  .continue-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #001f3f;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .score
+  {
+    color: black;
+    font-weight: bold;
+  }
+  .continue-btn 
+  {
+    height: 50px;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: #001f3f;
+    transition: 0.5s ease ;
+  }
+  .continue-btn:hover
+  {
+    background: linear-gradient(hsl(252, 100%, 67%),hsla(256, 72%, 46%, 1),hsl(241, 81%, 54%));
+  }
+
+  @media only screen and (max-width: 717px)
+  {
+    .boss
+    {
+        display: block;
+    }
+    .container
+{
+    height: 400px;
+    border: 1px solid gray;
+    width: 330px;
+    border-radius: 20px;
+    
+}
+.boss{
+    width: fit-content;
+}
+.idea
+{
+    border: 1px lightgray ;
+    padding: 10px 20px 10px 20px;
+    border-radius:50%;
+    height: 110px;
+    width: 105px;
+    /* margin: auto; */
+    display: block;
+    align-items: center;
+    justify-content: center; 
+    background: linear-gradient(hsl(252, 100%, 67%),hsla(256, 72%, 46%, 1),hsl(241, 81%, 54%));
+    /* background-size: cover;
+    background-position: center; */
+    
+}
+.idea h1
+{
+    font-size: 40px;
+}
+.summary-item  button
+  {
+    width: 260px;
+    height: 50px;
+    margin-left: 30px;
+  }
+  .continue-btn 
+  {
+    height: 50px;
+    width: 250px;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: #001f3f;
+    transition: 0.5s ease ;
+    margin-left: 35px;
+  }
+  }
